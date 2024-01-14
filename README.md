@@ -12,7 +12,6 @@
 ## Proyectos destacados
 
 Aquí puedes encontrar algunos de mis proyectos más destacados:
-
 - 🔭 Proyecto Universitario [La Cuadra El Salvador](https://github.com/Wilmer200520t/LaCuadra_El_Salvador)
 - 🔭 Proyecto Universitario [Peruvian Food](https://peruvianfoodutp.000webhostapp.com/)
 
