@@ -48,3 +48,21 @@ git status
 git log
     Displays the commit history of the repository.
 
+
+
+Pedir ayuda
+    git commando -h  --terminal
+    git help comando --navegador externo
+
+--Ignorar archivos 
+    formas de ignorar 
+        archivo.txt 
+        carpeta 
+        /archivo.txt 
+        *.log (todos con extencion log)
+        !prod.log (todos menos este archivo)
+        doc/*.txt (todos los archivos txt dentro de una carpeta)
+        doc/**/*.txt (ignorar todos los .txt dentro de las subcarpetas doc)
+
+        https://www.toptal.com/developers/gitignore --generar archivos .gitignore   
+                                                      dependiendo la tech
