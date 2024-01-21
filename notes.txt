@@ -71,3 +71,5 @@ Pedir ayuda
     git checkout rama --cambiar de ramas 
     git checkout -b rama --crea rama y te posiciona 
     git branch -d rama --eliminar
+    git push --set-upstream origin html --setea otra rama 
+    
