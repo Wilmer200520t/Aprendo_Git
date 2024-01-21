@@ -66,3 +66,8 @@ Pedir ayuda
 
         https://www.toptal.com/developers/gitignore --generar archivos .gitignore   
                                                       dependiendo la tech
+
+--Manejo de ramas 
+    git checkout rama --cambiar de ramas 
+    git checkout -b rama --crea rama y te posiciona 
+    git branch -d rama --eliminar
