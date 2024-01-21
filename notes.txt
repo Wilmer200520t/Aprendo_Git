@@ -1,0 +1,50 @@
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu@email.com"
+git config --global core.editor "nombre_del_editor"
+git config --global color.ui true
+git config --global merge.tool "herramienta"
+
+
+1.- git init
+    Initializes a new Git repository in the current directory.
+
+git clone <repository>
+    Creates a copy of a remote repository on your local machine.
+
+2.- git add <file>
+    Adds a file to the staging area, ready to be committed.
+
+3.- git commit -m "<message>"
+    Commits the changes in the staging area with a descriptive message.
+
+4.- git push
+    Pushes the committed changes to a remote repository.
+
+5.- git pull
+    Fetches and merges the latest changes from a remote repository.
+
+
+-- cambiar de branch de repositorios exitentes 
+git branch -m master main 
+    Pasa el historial de master a main.
+
+    git push origin main
+        crea el orging 
+
+        git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+        //configuras de manera manual el branch defaul 
+        git push orgin --delete master 
+            elimina la rama master
+
+git checkout <branch>
+    Switches to a different branch.
+
+git merge <branch>
+    Merges changes from a different branch into the current branch.
+
+git status
+    Shows the current status of the repository and any pending changes.
+
+git log
+    Displays the commit history of the repository.
+
