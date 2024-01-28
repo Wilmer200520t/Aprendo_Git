@@ -108,5 +108,8 @@ git clone <repository>
     git reflog --muestra datos con acciones hecha en cada commit
     git diff --ver diferencias entre working dir and staging directory area 
 
-15.- reset history 
+15.- reset history  (antes de hacer push)
     git status --estado de proyecto 
+    git reset --soft  --borra HEAD
+    git reset --mixed --borra HEAD y Staging
+    git reset --hard  --borra todo: HEAD, Staging y Working Directory
