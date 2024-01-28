@@ -81,3 +81,4 @@ Pedir ayuda
     git push origin main --push at repository
     
     git branch -d rama1 --delete
+    git push origin --delete rama1 --delete in repository
