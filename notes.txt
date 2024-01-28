@@ -1,9 +1,11 @@
-git config --global user.name "Tu Nombre"
-git config --global user.email "tu@email.com"
-git config --global core.editor "nombre_del_editor"
-git config --global color.ui true
-git config --global merge.tool "herramienta"
+More infomation: https://jonmircha.com/git
 
+0. global config 
+    git config --global user.name "Tu Nombre"
+    git config --global user.email "tu@email.com"
+    git config --global core.editor "nombre_del_editor"
+    git config --global color.ui true
+    git config --global merge.tool "herramienta"
 
 1.- git init
     Initializes a new Git repository in the current directory.
@@ -23,38 +25,32 @@ git clone <repository>
 5.- git pull
     Fetches and merges the latest changes from a remote repository.
 
-
--- cambiar de branch de repositorios exitentes 
-git branch -m master main 
-    Pasa el historial de master a main.
+6.- cambiar de rama master
+    git branch -m master main 
+        Pasa el historial de master a main.
 
     git push origin main
-        crea el orging 
+        crea el origng 
 
         git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
         //configuras de manera manual el branch defaul 
         git push orgin --delete master 
             elimina la rama master
 
-git checkout <branch>
-    Switches to a different branch.
+7.- local repository status
+    git status
+        Shows the current status of the repository and any pending changes.
 
-git merge <branch>
-    Merges changes from a different branch into the current branch.
+8.- repository log
+    git log
+        Displays the commit history of the repository.
 
-git status
-    Shows the current status of the repository and any pending changes.
+9.- help
+    Pedir ayuda
+        git commando -h  --terminal
+        git help comando --navegador externo
 
-git log
-    Displays the commit history of the repository.
-
-
-
-Pedir ayuda
-    git commando -h  --terminal
-    git help comando --navegador externo
-
---Ignorar archivos 
+10.- Ignorar archivos 
     formas de ignorar 
         archivo.txt 
         carpeta 
@@ -67,14 +63,15 @@ Pedir ayuda
         https://www.toptal.com/developers/gitignore --generar archivos .gitignore   
                                                       dependiendo la tech
 
---Manejo de ramas 
+11.- Manejo de ramas 
     git checkout rama --cambiar de ramas 
     git checkout -b rama --crea rama y te posiciona 
+    git branch rama --crear rama
     git branch -d rama --eliminar
     git push --set-upstream origin html --setea otra rama 
-    git push -u origin html 
+    git push -u origin html
 
---merge 
+12.- merge 
     situarse en la rama a quedar 
     git merge rama1 --merge or join 
     git merge rama2
@@ -82,3 +79,4 @@ Pedir ayuda
     
     git branch -d rama1 --delete
     git push origin --delete rama1 --delete in repository
+    git branch --no-merged --ramas no fucionadas 
