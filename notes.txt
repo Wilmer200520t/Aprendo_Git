@@ -94,3 +94,15 @@ git clone <repository>
     git add     --add changes 
     git commit --amend --no-edit   --add change to existent commit
     git reset --hard HEAD~1 --retroceder en los cambios
+    git checkout id_SHA --retroceder en el tiempo
+
+14.- Logs 
+    git log --oneline
+    git log > commit.txt  --save on a file 
+    git log --pretty=format:"%h - %an, %ar : %s" --show log with a format 
+    git log -n  --n numero de cambios recientes 
+    git log --after="2019-07-07 00:00:00"  --muestra los cambios realizados después de la fecha especificada
+    git log --before="2019-07-08 00:00:00" --muestra los cambios realizados antes de la fecha especificada
+    git log --oneline --graph --all  --muestra un grafica del historial de cambios (ramas)
+    git reflog --muestra datos con acciones hecha en cada commit
+    git diff --ver diferencias entre working dir and staging directory area 
