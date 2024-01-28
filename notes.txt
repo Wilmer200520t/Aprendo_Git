@@ -90,6 +90,6 @@ git clone <repository>
     git commit -m 
     git push 
 
-13.- add change to existent commit
-    git add 
+13.- add change to existent commit (before of a push)
+    git add     --add changes 
     git commit --amend --no-edit   --add change to existent commit
