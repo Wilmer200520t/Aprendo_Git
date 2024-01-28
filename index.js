@@ -1,1 +1,3 @@
-console.log("Aprendo js");
+import chalk from "chalk";
+
+console.log(chalk.yellowBright("Aprendo js"));
