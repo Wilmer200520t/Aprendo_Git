@@ -73,6 +73,7 @@ git clone <repository>
 
 12.- merge 
     situarse en la rama a quedar 
+    --fast
     git merge rama1 --merge or join 
     git merge rama2
     git push origin main --push at repository
@@ -80,3 +81,10 @@ git clone <repository>
     git branch -d rama1 --delete
     git push origin --delete rama1 --delete in repository
     git branch --no-merged --ramas no fucionadas 
+
+    --manual 
+    git merge rama1
+        --deciden con que codigo quedarte 
+    git add .
+    git commit -m 
+    git push 
