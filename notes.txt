@@ -42,6 +42,7 @@ git clone <repository>
         Shows the current status of the repository and any pending changes.
 
 8.- repository log
+    q --for out of log
     git log
         Displays the commit history of the repository.
 
@@ -88,3 +89,7 @@ git clone <repository>
     git add .
     git commit -m 
     git push 
+
+13.- add change to existent commit
+    git add 
+    git commit --amend --no-edit   --add change to existent commit
