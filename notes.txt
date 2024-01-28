@@ -72,4 +72,12 @@ Pedir ayuda
     git checkout -b rama --crea rama y te posiciona 
     git branch -d rama --eliminar
     git push --set-upstream origin html --setea otra rama 
-    git push -u origin html            
+    git push -u origin html 
+
+--merge 
+    situarse en la rama a quedar 
+    git merge rama1 --merge or join 
+    git merge rama2
+    git push origin main --push at repository
+    
+    git branch -d rama1 --delete
