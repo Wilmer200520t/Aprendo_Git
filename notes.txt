@@ -93,3 +93,4 @@ git clone <repository>
 13.- add change to existent commit (before of a push)
     git add     --add changes 
     git commit --amend --no-edit   --add change to existent commit
+    git reset --hard HEAD~1 --retroceder en los cambios
