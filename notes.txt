@@ -113,3 +113,4 @@ git clone <repository>
     git reset --soft  --borra HEAD
     git reset --mixed --borra HEAD y Staging
     git reset --hard  --borra todo: HEAD, Staging y Working Directory
+    git reset id-commit --deshace todos los cmabios despues del commit indicado
