@@ -1,5 +1,6 @@
 More infomation: https://jonmircha.com/git
 
+
 0. global config 
     git config --global user.name "Tu Nombre"
     git config --global user.email "tu@email.com"
@@ -106,3 +107,6 @@ git clone <repository>
     git log --oneline --graph --all  --muestra un grafica del historial de cambios (ramas)
     git reflog --muestra datos con acciones hecha en cada commit
     git diff --ver diferencias entre working dir and staging directory area 
+
+15.- reset history 
+    git status --estado de proyecto 
