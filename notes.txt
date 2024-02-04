@@ -143,3 +143,15 @@ git clone <repository>
         git tag -a "v1.0.0" -m "Mensaje de la etiqueta"
         git push --tags
 
+19.- Git hub pages 
+
+    URL del sitio: https://usuario.github.io/repositorio
+    
+    git branch gh-pages
+    git checkout gh-pages
+
+    git remote add origin https://github.com/usuario/repositorio.git
+    git push origin gh-pages
+
+    # para descargar los cambios del repositorio remoto al local
+    git pull origin gh-pages
