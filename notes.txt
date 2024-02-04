@@ -115,3 +115,31 @@ git clone <repository>
     git reset --hard  --borra todo: HEAD, Staging y Working Directory
     git reset id-commit --deshace todos los cmabios despues del commit indicado
     git reset --hard id-commit --desecha todo el historial y regresa al commit especificado
+
+16.- rerset repository 
+    -- dirigirse al repositorio 
+    --revisar primer link 
+
+17.- Remotos 
+    git remote --show origins 
+    git remote -v  --more information 
+    git remote add nombre_origin link 
+    git remote remove nombre_origin --delete 
+    git checkout --track -b rama-remota origin/rama-remota --descargar una rama remota a local diferente a la principal
+
+18.- Etiquetas 
+    git tag  --show labels 
+    git tag n_version  --create label 
+    git tag -d n_version  --delete label
+
+    --sincronizando la etiqueta del repositorio local al remoto
+        git add .
+        git  tag v1.0.0
+        git commit -m "v1.0.0"
+        git push origin numero-versión
+    
+    --generando una etiqueta anotada (con mensaje de commit)
+        git add .
+        git tag -a "v1.0.0" -m "Mensaje de la etiqueta"
+        git push --tags
+
